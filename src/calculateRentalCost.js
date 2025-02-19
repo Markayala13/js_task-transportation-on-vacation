@@ -25,7 +25,6 @@ return totalSeven
 }else if(days >=3 && day <= 6){
 
   let totalThree = days *dayRental - threeDaysOff
-  
   return totalThree
 }
 
