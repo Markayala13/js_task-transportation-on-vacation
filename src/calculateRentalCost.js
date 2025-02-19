@@ -35,6 +35,6 @@ return totalSeven
 
 }
 
-console.log(calculateRentalCost(7))
 
-//module.exports = calculateRentalCost;
+
+
