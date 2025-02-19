@@ -4,33 +4,24 @@
  * @return {number}
  */
 function calculateRentalCost(days) {
-  // write code here
-
+  // Definir constantes de precios y descuentos
   const dayRental = 40;
-const sevenDaysOff= 50;
-const threeDaysOff= 20;
+  const sevenDaysOff = 50;
+  const threeDaysOff = 20;
 
-if(days === 1 ){
+  if (days === 1) {
+    return days * dayRental; 
+  }
+  
+  if (days >= 7) {
+    return days * dayRental - sevenDaysOff; 
+  }
 
-  const totalOneDay= days * 40
-
-  return totalOneDay
-} if(days >= 7){
-
- const totalSeven = days * dayRental - sevenDaysOff
-
-return totalSeven
-}if(days >=3 && days < 7){
-
-  const totalThree = days *dayRental - threeDaysOff
-  return totalThree
+  if (days >= 3 && days < 7) {
+    return days * dayRental - threeDaysOff; 
+  }
 }
 
-
-
-
-
-}
 
 
 
