@@ -20,7 +20,7 @@ if(days === 1 ){
  const totalSeven = days * dayRental - sevenDaysOff
 
 return totalSeven
-}if(days >=3 && days <= 6){
+}if(days >=3 && days < 7){
 
   const totalThree = days *dayRental - threeDaysOff
   return totalThree
