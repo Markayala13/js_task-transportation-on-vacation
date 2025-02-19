@@ -15,13 +15,11 @@ if(days === 1 ){
   let totalOneDay= days * 40
 
   return totalOneDay
-
 }else if(days >= 7){
 
  let totalSeven = days * dayRental - sevenDaysOff
 
 return totalSeven
-
 }else if(days >=3 && day <= 6){
 
   let totalThree = days *dayRental - threeDaysOff
